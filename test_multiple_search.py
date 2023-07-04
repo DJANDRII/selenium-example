@@ -39,15 +39,3 @@ def test_ebay_search_vehicle_multiple(browser, make, model, postal_code, conditi
 
     WebDriverWait(browser, 5).until(EC.title_contains(model))
     assert model in browser.title
-
-
-
-
-
-
-
-
-
-
-
-

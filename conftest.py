@@ -9,5 +9,5 @@ def browser():
     browser = webdriver.Chrome(service=service)
     browser.maximize_window()
     yield browser
-    time.sleep(3)
+
     browser.quit()
